@@ -11,7 +11,7 @@ function Dashboard() {
                 <p className="text-3xl font-bold mb-4">Welcome, {user.fullName}</p>
             </div>
             <div className="space-y-4">
-                <p className="text-lg"><span className="font-semibold">Full Name:</span> {user.fullName}</p>
+                <p className="text-lg"><span className="font-semibold"> Name:</span> {user.fullName}</p>
                 <p className="text-lg"><span className="font-semibold">Email:</span> {user.email}</p>
                 <p className="text-lg"><span className="font-semibold">Favourite Food:</span> {user.favouriteFood}</p>
                 <p className="text-lg"><span className="font-semibold">Mobile No:</span> {user.mobileNo}</p>
